@@ -5,7 +5,8 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Sidebar from "@/components/sidebar"
 import fetchUserData from "./methods/fetchuserdata"
-import { Poppins, Montserrat } from "next/font/google"
+import { Montserrat } from "next/font/google"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "eRRoRpad",
